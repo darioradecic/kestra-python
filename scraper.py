@@ -86,7 +86,8 @@ def get_books(topic_list):
 
 def main():
     # List of topics from which the books will be scraped
-    topics = ['travel_2', 'mystery_3', 'historical-fiction_4', 'classics_6', 'philosophy_7']
+    topics = ['travel_2', 'mystery_3', 'historical-fiction_4', 'classics_6', 
+              'philosophy_7', 'fantasy_19', 'science_22', 'art_25', 'history_32']
     # Scrape and return a DataFrame
     books = get_books(topic_list=topics)
     # Save as CSV
